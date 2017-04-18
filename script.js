@@ -2,5 +2,5 @@ var width = window.innerWidth || document.documentElement.clientWidth || documen
 var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 if (width < height)
 {
-	document.body.style.background = "url(img/bg_portrait.jpg) no-repeat center fixed";
+	document.documentElement.style.background = "url(img/bg_portrait.jpg) no-repeat center fixed";
 }
