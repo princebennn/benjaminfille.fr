@@ -82,3 +82,9 @@ a {
 .fa-send {
     background: #CC3D2C;
 }
+
+.icon-cv {
+    filter: brightness(85%);
+    background: #50B948;
+    font-weight: bold;
+}
